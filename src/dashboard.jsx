@@ -1,6 +1,6 @@
 //import { useState } from 'react';
-//import { Card, CardContent } from "@/components/ui/card";
-//import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+//import { Card, CardContent } from "../components/ui/card";
+//import { Tabs, TabsList, TabsTrigger, TabsContent } from "../components/ui/tabs";
 //import { Input } from "@/components/ui/input";
 //import { Button } from "@/components/ui/button";
 //import { Label } from "@/components/ui/label";
