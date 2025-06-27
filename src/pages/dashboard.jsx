@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import { Card, CardContent } from "../components/card";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "../components/tabs";
-import { Input } from "../components/input";
-import { Button } from "../components/button";
-import { Label } from "../components/label";
-import { Separator } from "../components/separator";
+import { Card, CardContent } from "../../components/card";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "../../components/tabs";
+import { Input } from "../../components/input";
+import { Button } from "../../components/button";
+import { Label } from "../../components/label";
+import { Separator } from "../../components/separator";
 
 export default function Dashboard() {
   const [activeTab, setActiveTab] = useState("bids");
@@ -117,4 +117,3 @@ export default function Dashboard() {
     </div>
   );
 }
-// Final deployment test
