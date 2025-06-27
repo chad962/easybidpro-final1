@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import { Card, CardContent } from "@/components/card";
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/tabs";
-import { Input } from "@/components/input";
-import { Button } from "@/components/button";
-import { Label } from "@/components/label";
-import { Separator } from "@/components/separator";
+import { Card, CardContent } from "../../components/card";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "../../components/tabs";
+import { Input } from "../../components/input";
+import { Button } from "../../components/button";
+import { Label } from "../../components/label";
+import { Separator } from "../../components/separator";
 
 export default function Dashboard() {
   const [activeTab, setActiveTab] = useState("bids");
@@ -109,7 +109,9 @@ export default function Dashboard() {
               <Label>Password</Label>
               <Input className="mt-1 mb-2" type="password" placeholder="••••••••" />
               <Button className="mt-2">Add New User</Button>
-              <p className="text-xs text-gray-500 mt-2">All users will have access to view and submit bids based on permission level.</p>
+              <p className="text-xs text-gray-500 mt-2">
+                All users will have access to view and submit bids based on permission level.
+              </p>
             </CardContent>
           </Card>
         </TabsContent>
