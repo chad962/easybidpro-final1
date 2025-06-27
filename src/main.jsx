@@ -1,13 +1,6 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import Dashboard from './pages/dashboard';
 
-function App() {
-  return (
-    <div style={{ padding: '2rem', fontFamily: 'Arial' }}>
-      <h1>EasyBid Pro</h1>
-      <p>Your AI-powered bid automation dashboard is coming soon.</p>
-    </div>
-  )
-}
+ReactDOM.createRoot(document.getElementById('root')).render(<Dashboard />);
 
-ReactDOM.createRoot(document.getElementById('root')).render(<App />)
