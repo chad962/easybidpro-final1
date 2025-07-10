@@ -1,0 +1,12 @@
+{
+  "business_name": "Field Dates LLC",
+  "ein": "****1300",
+  "email": "ccossey@fielddates.com",
+  "commodity_codes": {
+    "naics": ["713990", "711320", "561920", "611699"],
+    "nigp": ["96153", "98167", "95277", "96179", "95215"]
+  },
+  "radius": "100 miles of Houston, TX",
+  "portals": ["Bonfire", "IonWave", "SAM.gov", "TX SmartBuy"]
+}
+add field dates profile json
