@@ -4,3 +4,4 @@ EasyBid Pro is an AI-powered bid automation dashboard to help businesses registe
 
 This is the MVP starter template.
 /src/pages/dashboard.jsx
+# Trigger manual scan - July 9
