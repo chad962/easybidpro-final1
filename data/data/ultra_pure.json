@@ -1,0 +1,11 @@
+{
+  "business_name": "UPS, Inc (Ultra Pure Solutions)",
+  "ein": "****7896",
+  "email": "ccossey@ultrapuresolutions.com",
+  "commodity_codes": {
+    "naics": ["423740", "423830", "333318", "811310", "221310"],
+    "nigp": ["89000", "93464", "93436", "03167", "03191"]
+  },
+  "radius": "Statewide in Texas",
+  "portals": ["Bonfire", "IonWave", "SAM.gov", "TX SmartBuy"]
+}
